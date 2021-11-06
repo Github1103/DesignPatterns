@@ -2,8 +2,8 @@ package cn.codeyoung.PubSubPattern.PubSub.Whether;
 
 import cn.codeyoung.PubSubPattern.PubSub.Whether.Controller.StationController;
 import cn.codeyoung.PubSubPattern.PubSub.Whether.Controller.UserController;
-import PubSubPattern.PubSub.Whether.entity.Station;
-import PubSubPattern.PubSub.Whether.entity.User;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.Station;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.User;
 
 /**
  * @Description //主方法

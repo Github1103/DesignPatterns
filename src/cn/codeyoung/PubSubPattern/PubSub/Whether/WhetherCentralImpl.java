@@ -1,7 +1,7 @@
 package cn.codeyoung.PubSubPattern.PubSub.Whether;
 
-import PubSubPattern.PubSub.Whether.entity.Station;
-import PubSubPattern.PubSub.Whether.entity.User;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.Station;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.User;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,8 +1,8 @@
 package cn.codeyoung.PubSubPattern.PubSub.Whether.Controller;
 
 import cn.codeyoung.PubSubPattern.PubSub.Whether.WhetherCentral;
-import PubSubPattern.PubSub.Whether.entity.Station;
-import PubSubPattern.PubSub.Whether.entity.User;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.Station;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.User;
 
 /**
  * @Description //用户控制

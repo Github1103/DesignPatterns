@@ -1,7 +1,7 @@
 package cn.codeyoung.PubSubPattern.PubSub.Whether.Controller;
 
 import cn.codeyoung.PubSubPattern.PubSub.Whether.WhetherCentral;
-import PubSubPattern.PubSub.Whether.entity.Station;
+import cn.codeyoung.PubSubPattern.PubSub.Whether.entity.Station;
 
 /**
  * @Description //气象站控制
