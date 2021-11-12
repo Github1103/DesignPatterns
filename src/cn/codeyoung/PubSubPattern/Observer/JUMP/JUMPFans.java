@@ -7,7 +7,7 @@ import java.util.List;
 
 
 /**
- * @Description //TODO
+ * @Description //书迷，其实就是观察者，观察出版社出书的情况，一出书，第一时间去买
  * @Data 9:34 2021/11/2
  * @Author zhangjunrong
  */

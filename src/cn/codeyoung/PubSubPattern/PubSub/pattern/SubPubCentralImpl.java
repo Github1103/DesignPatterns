@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @Description //TODO
+ * @Description //发布者和订阅者的中转中心，负责管理双方
  * @Data 10:32 2021/11/2
  * @Author zhangjunrong
  */
@@ -17,6 +17,12 @@ public class SubPubCentralImpl implements SubPubCentral {
         PubSubMap = new HashMap<>();
     }
 
+    /**
+     * 为发布者和订阅者创建链接，通过对比是否存在这个发布者，如果不存在则添加，存在则不添加
+     * @param publisher
+     * @param subscriber
+     * @return
+     */
     @Override
     public boolean subscribe(Publisher publisher, Subscriber subscriber) {
 
@@ -34,6 +40,12 @@ public class SubPubCentralImpl implements SubPubCentral {
         return false;
     }
 
+    /**
+     * 解除发布者的订阅信息，有则订阅成功，没有则订阅失败
+     * @param publisher
+     * @param subscriber
+     * @return
+     */
     @Override
     public boolean unsubscribe(Publisher publisher, Subscriber subscriber) {
 
@@ -52,6 +64,11 @@ public class SubPubCentralImpl implements SubPubCentral {
         return false;
     }
 
+    /**
+     * 发布者发布信息，转发通知所有订阅这个发布者服务的订阅者。
+     * @param publisher
+     * @param message
+     */
     @Override
     public void publish(Publisher publisher, String message) {
 
