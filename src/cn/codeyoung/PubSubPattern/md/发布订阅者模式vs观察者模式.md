@@ -24,6 +24,10 @@
 ![../_images/seq_Obeserver.jpg](img/发布订阅者模式vs观察者模式/seq_Obeserver.jpg)
 
 ### 1.3.代码实现例子
+- 类图
+
+![](img/发布订阅者模式vs观察者模式/Package pattern-16367001655243.png)
+
 
 - Main方法执行
 

@@ -3,7 +3,7 @@ package cn.codeyoung.PubSubPattern.Observer.JUMP;
 import cn.codeyoung.PubSubPattern.Observer.pattern.Subject;
 
 /**
- * @Description //TODO
+ * @Description //出版商发布一本书就会出货给书店，然后再通知书迷
  * @Data 9:24 2021/11/2
  * @Author zhangjunrong
  */
