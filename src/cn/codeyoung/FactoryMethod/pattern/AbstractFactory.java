@@ -5,7 +5,7 @@ package cn.codeyoung.FactoryMethod.pattern;
  * @Author ZhangJR
  * @Description 抽象工厂类方法
  */
-public abstract class Factory {
+public abstract class AbstractFactory {
 
     // 抽象的产品生产方法
     public abstract <T extends Product> T createProduct(Class<T> clazz);

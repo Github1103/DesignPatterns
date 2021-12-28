@@ -5,7 +5,7 @@ package cn.codeyoung.FactoryMethod.pattern;
  * @Author ZhangJR
  * @Description
  */
-public class concreteFactory extends Factory{
+public class concreteFactory extends AbstractFactory {
     @Override
     public <T extends Product> T createProduct(Class<T> clazz) {
         Product product = null;
